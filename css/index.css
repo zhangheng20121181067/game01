@@ -1144,12 +1144,17 @@ body .main .banner {
 body .main .code {
   margin-top: .20rem;
   text-align: center; }
-  body .main .code img {
-    width: 1.0rem;
-    height: 1.0rem; }
+  body .main .code .wxhao {
+    background-color: #41bf71;
+    padding: .1rem 0;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: .22rem; }
   body .main .code p {
     line-height: .32rem;
-    font-size: .22rem; }
+    font-size: .14rem; }
+    body .main .code p a {
+      color: red; }
 body .main .list {
   margin-top: .20rem; }
   body .main .list img {
