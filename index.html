@@ -27,6 +27,31 @@
             <img src="images/57B698D0-FAF1-4885-9533-88EA938AFA0F@2x.png" alt="">
             <img src="images/57B698D0-FAF1-4885-9533-88EA938AFA0F@2x.png" alt="">
         </div>
+        
+        <div class="touch">
+            <img src="images/wx.png" alt="">
+        </div>
+
+        <div class="pop hide">
+            <img class="cancel" src="images/cancel.png " alt="">
+            <p class="wx">Peteryuen2013</p>
+
+            <p class="center">(长按可复制)</p>
+
+            <p><a href="weixin://">点我打开微信</a></p>
+        </div>
     </div>
+
+    <script>
+        $(".touch").on("click",function(){
+            $(this).addClass("hide");
+            $(".pop").removeClass("hide");
+        });
+
+        $(".pop img").on("click",function(){
+            $(this).parents(".pop").addClass("hide");
+            $(".touch").removeClass("hide");
+        });
+    </script>
 </body>
 </html>

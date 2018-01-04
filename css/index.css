@@ -977,7 +977,7 @@ a:hover {
 .hide {
   display: none; }
 
-.block {
+.show {
   display: block; }
 
 .marPad {
@@ -1159,5 +1159,54 @@ body .main .list {
   body .main .list img {
     width: 100%;
     height: 1.6rem; }
+body .main .touch {
+  position: fixed;
+  top: 50%;
+  right: 1%;
+  cursor: pointer;
+  z-index: 999; }
+body .main .pop {
+  z-index: 999;
+  width: 300px;
+  margin: -150px 0 0 -150px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 1pc;
+  box-shadow: 0 0 10px #000; }
+  body .main .pop p {
+    display: inline-block; }
+  body .main .pop img {
+    width: 30px;
+    background: #fff;
+    padding: 2px;
+    position: absolute;
+    top: -9pt;
+    right: -9pt;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #666; }
+  body .main .pop .wx {
+    font-size: .24rem;
+    padding: .1rem .16rem;
+    font-weight: 700;
+    background: #22c7a0;
+    color: #fff;
+    border-radius: 5px; }
+  body .main .pop .center {
+    margin: .18rem 0;
+    display: block; }
+  body .main .pop p a {
+    display: inline-block;
+    line-height: .38rem;
+    background-color: #ee720e;
+    color: #fff;
+    padding: 0 .2rem;
+    border-radius: 6px;
+    font-size: .18rem; }
 
 /*# sourceMappingURL=index.css.map */
